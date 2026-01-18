@@ -9,3 +9,12 @@ Validates that core home lab services are reachable locally:
 Run:
 ```bash
 python scripts/infra_validate.py
+
+## Makefile Commands
+
+Run common tasks quickly:
+
+```bash
+make validate
+make report
+make all
